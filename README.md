@@ -9,4 +9,4 @@ What’s more, we achieve dynamic face-recognition using this package. The code 
 Besides, we also establish a cnn neural network to achieve face classification just like that in lab8. We tried to modify the network by ourselves to achieve multi-classification. But the accuracy is too low. So, we only achieve binary classification. As for this part, the code and results show in”project.ipynb”
 
 Note: we don’t run this project on GPU, so our input shape is (64,64,3). After 10 epochs, val_acc is around 90%.
-      Our pictures are downloaded from lfw_funneled dataset. 
+      Our pictures are downloaded from lfw_funneled dataset. as for this part， the code is from https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_webcam_faster.py).
